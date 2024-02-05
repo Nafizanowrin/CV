@@ -112,6 +112,8 @@ body{
     margin-bottom: 15px;
 }
 
+
+
 .contactInfo education h5
 {
     color: #03a9f4;
@@ -208,23 +210,28 @@ p
     width: 20px;
 }
 
-/* @media (max-width: 100px)
-{
-    .container
-    {
-        margin: 10px;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .interest ul 
-    {
-        grid-template-columns: repeat(2,1fr);
-    }
+.contactInfo li a{
+    color: #fff;
+    text-decoration: none;
 }
 
-@media (max-width: 600px)
-{
-    .about .box
-    {
-        flex-direction: column;
-    }
-} */
+.share{
+    display: flex;
+}
+
+.fb-share-button a{
+    color: #fff;
+    background-color: #081921;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.linkedin-share-button a{
+    color: #fff;
+    background-color: #081921;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
